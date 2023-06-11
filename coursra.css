@@ -1,0 +1,80 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    coler:#000;
+    font-family: Monospace, serif;
+}
+
+#head{
+    text-align: center;
+    margin: 50px auto; ;
+    font-size: 1.75rem;
+}
+
+.p1 {
+    padding: 15px;
+    margin: 25px 0 0 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.p2{
+    background-color: #FF7F50;
+    height:35px;
+    width:150px;
+    border: 2px solid #000000;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size:1.25em;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.p21{background-color: #cb78bf}
+.p22{background-color: #a83333;
+color:white}
+.p23{background-color: #cbbd78
+}
+.box{
+    background-color:#8b949e;
+    margin: 10px;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+.col-md-6.box{margin-right: 0;
+}
+
+.row {
+    width: 100%;
+
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+        float: left;
+
+    }
+    .col-md-6 {
+        width: 50%;}
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
